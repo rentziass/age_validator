@@ -19,7 +19,7 @@ bundle install
 Then add the following to your model:
 
 ```ruby
-validates :my_date_attribute, :age => true
+validates :my_date_attribute, age: true
 ```
 
 ## Optional parameters
@@ -27,7 +27,7 @@ validates :my_date_attribute, :age => true
 The age validator accepts a minimum parameter, and also a custom error message:
 
 ```ruby
-validates :my_date_attribute, :age => {minimum: 14, message: "Your message"}
+validates :my_date_attribute, age: {minimum: 14, message: "Your message"}
 ```
 
 ## Validation outside a model
