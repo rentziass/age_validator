@@ -22,7 +22,7 @@ validates :my_date_attribute, :age => true
 
 ## Optional parameters
 
-The age validator also accepts a minimum parameter, and also a custom error message:
+The age validator accepts a minimum parameter, and also a custom error message:
 
 ```ruby
 validates :my_date_attribute, :age => {minimum: 14, message: "Your message"}
