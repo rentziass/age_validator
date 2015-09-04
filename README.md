@@ -1,5 +1,7 @@
 # AgeValidator
 
+[![Join the chat at https://gitter.im/rentziass/age_validator](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rentziass/age_validator?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Custom ActiveRecord Validator, useful if you need to verify an age based on a date (eg: birthdate)
 
 ## Usage
